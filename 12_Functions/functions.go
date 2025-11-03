@@ -39,7 +39,7 @@ func main() {
 	fmt.Println(result)
 
 	// direct call
-	fmt.Println(add(6, 8))
+	fmt.Println(addS(6, 8))
 
 	// store into diff variables[if anything get but not want to return then go for _]
 	lang1, lang2, _ := getLanguages()
