@@ -6,7 +6,7 @@ import (
 
 // for->only construct  in go for looping
 func main() {
-	// If have to declare while loop(As it's not present ni go)
+	// If have to declare while loop(As it's not present in go)
 
 	i := 1
 	for i <= 3 {
