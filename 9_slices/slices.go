@@ -10,6 +10,10 @@ import (
 // most use construct in go
 // useful methods
 
+// 2 ways:
+// 1.Initialize or uninitialize [when we know the values, can also add later]
+// 2.Using make function, just declare [when we don't know the value, add elements later]
+
 func main() {
 
 	// Uninitilaize slice is null
