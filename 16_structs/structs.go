@@ -22,15 +22,19 @@ type order struct {
 	createdAt time.Time // nanosecond precision
 }
 
-// If pass the struct in a function(receiver type)
+// Add behavior to the struct/add methods to struct(receiver type)[oop]
 // convention: consider the starting letter of the struct
 
-// When change anything, must use pointer but no need to 
+// When change anything, must use pointer but no need to
+
+// Create a method of changing status:
 func (o *order) changeStatus(status string) {
 	o.status = status
 }
 
 // when just get the values, no need to use the pointer, if use, then also it's ok
+
+// create method of getting aamount
 func (o *order) getAmmount() float32 {
 	return o.ammount
 }
