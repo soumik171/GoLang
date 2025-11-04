@@ -7,6 +7,8 @@ import (
 
 // why use goroutine:runs concurrently,lightweight, managed by Go's scheduler
 // runs difficult task as a same time where other languages might fail
+
+// just go func()-> run concurrently and exit anytime
 func main() {
 
 	for i := 0; i <= 10; i++ {
